@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="6dp"
+    android:paddingTop="16dp"
+    android:background="#3fb399"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/yLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020"
+        android:textSize="24sp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-40dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/mLabel"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="July"
+        android:textSize="24sp"
+        android:textColor="#206757" />
+
+
+    <TextView
+        android:id="@+id/dLabel"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:text="18"
+        android:textSize="56sp"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/eLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sat"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="-80dp"
+        android:layout_marginTop="-40dp"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
